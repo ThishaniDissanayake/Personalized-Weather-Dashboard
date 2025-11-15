@@ -1,0 +1,38 @@
+# Project Information
+# Student Index: 224044P
+# Personalized Weather Dashboard
+
+## Coordinates Calculation
+Index: 224044P
+- First two digits: 22
+- Next two digits: 40
+- Latitude = 5 + (22 / 10.0) = 7.20
+- Longitude = 79 + (40 / 10.0) = 83.00
+
+## API Endpoint
+https://api.open-meteo.com/v1/forecast?latitude=7.20&longitude=83.00&current_weather=true
+
+## Features Implemented
+✅ Student index input (pre-filled with 224044P)
+✅ Automatic coordinate calculation
+✅ Open-Meteo API integration (no API key needed)
+✅ Display: Temperature, Wind Speed, Weather Code
+✅ Show last updated timestamp
+✅ Display full request URL
+✅ Loading indicator
+✅ Error handling
+✅ Offline caching with shared_preferences
+✅ "(cached)" tag for offline data
+✅ Clean, responsive UI
+
+## Dependencies Used
+- http: ^1.1.0 (REST API calls)
+- shared_preferences: ^2.2.2 (Local caching)
+- intl: ^0.18.1 (Date formatting)
+
+## Key Files
+- lib/main.dart - Complete app implementation
+- pubspec.yaml - Dependencies configuration
+- android/app/src/main/AndroidManifest.xml - Android permissions
+- SETUP_GUIDE.md - Detailed instructions
+- README.md - Project documentation
